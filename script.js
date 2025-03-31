@@ -17,7 +17,7 @@ console.log(result)
 var arr="Malayalam"
 var res=arr.toLowerCase()
 var result2=res.split('')
-var result3=result2.reverse('')
+var result3=result2.reverse()
 
 if (result3.join('')==res){
     console.log("true")
@@ -26,3 +26,6 @@ else{
     console.log("false")
 }
 
+//Task3 
+var str="Hello"
+ console.log(str.split('').reverse().join(''))
